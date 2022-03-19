@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">DePalm</string>
+    <string name="envases">Envases</string>
+    <string name="salir">Salir</string>
+    <string name="fiar">Fiar</string>
+    <string name="venta">Venta</string>
+    <string name="gesti_n_de_inventario">Gestión de Inventario</string>
+    <string name="gesti_n_de_clientes">Gestión de Clientes</string>
+    <string name="volver">Volver</string>
+    <string name="agregar_producto">Agregar Producto</string>
+    <string name="ver_productos">Ver Productos</string>
+    <string name="ver_clientes">Ver Clientes</string>
+    <string name="agregar_cliente">Agregar Cliente</string>
+    <string name="nombre_de_producto">Nombre de Producto:</string>
+    <string name="precio">Precio:</string>
+    <string name="ingrese_el_nombre_del_producto">Ingrese el nombre del producto</string>
+    <string name="ingrese_el_precio_del_producto">Ingrese el precio del producto</string>
 </resources>
