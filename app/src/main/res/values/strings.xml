@@ -15,4 +15,8 @@
     <string name="precio">Precio:</string>
     <string name="ingrese_el_nombre_del_producto">Ingrese el nombre del producto</string>
     <string name="ingrese_el_precio_del_producto">Ingrese el precio del producto</string>
+    <string name="nombre_del_cliente">Nombre del Cliente:</string>
+    <string name="ingrese_el_nombre_del_cliente">Ingrese el nombre del cliente</string>
+    <string name="apodo">Apodo:</string>
+    <string name="ingrese_el_apodo_del_cliente">Ingrese el apodo del cliente</string>
 </resources>

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DePalm">
         <activity
+            android:name=".MostrarProducto"
+            android:exported="true" />
+        <activity
+            android:name=".AgregarCliente"
+            android:exported="true" />
+        <activity
             android:name=".AgregarProducto"
             android:exported="true" />
         <activity
