@@ -8,7 +8,7 @@
     tools:context=".AgregarCliente">
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/button_volver2"
         android:layout_width="85dp"
         android:layout_height="63dp"
         android:backgroundTint="@color/design_default_color_error"
