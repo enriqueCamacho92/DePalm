@@ -62,6 +62,7 @@
             android:visibility="visible">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tvCliente"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/ingrese_el_nombre_del_cliente"
@@ -83,6 +84,7 @@
             android:visibility="visible">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tvApodo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/ingrese_el_apodo_del_cliente"

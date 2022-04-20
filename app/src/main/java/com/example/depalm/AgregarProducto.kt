@@ -5,8 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.TextView
+import com.google.firebase.firestore.FirebaseFirestore
 
 class AgregarProducto : AppCompatActivity() {
+
+    private val db = FirebaseFirestore.getInstance()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_agregar_producto)
@@ -15,9 +20,13 @@ class AgregarProducto : AppCompatActivity() {
         val botonVolver: ImageButton = findViewById(R.id.button_volver4)
         //Función al pulsar los botones de Agregar Cliente
         botonAgregarProducto.setOnClickListener {
-            //MODIFICAR CUANDO ESTE LISTA LA BASE DE DATOS
-            val intent = Intent(this, AgregarCliente::class.java)
-            startActivity(intent)
+            val productoNombre: TextView = findViewById(R.id.tvProducto)
+            val productoPrecio: TextView = findViewById(R.id.editTextNumberDecimal)
+            db.collection("productos").document(productoNombre.text.toString()).set(
+                hashMapOf(
+                    "precio" to productoPrecio.text.toString()
+                )
+            )
         }
         botonVolver.setOnClickListener{
             val intent = Intent(this, MenuGestionInventario::class.java)

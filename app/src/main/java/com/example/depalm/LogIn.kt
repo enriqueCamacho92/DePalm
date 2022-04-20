@@ -7,11 +7,12 @@ import android.widget.Toast
 import com.example.depalm.databinding.ActivityAuthenicationBinding
 import com.google.firebase.auth.FirebaseAuth
 
+lateinit var globalEmail: String
+
 class LogIn : AppCompatActivity() {
 
     private lateinit var binding:ActivityAuthenicationBinding
     private lateinit var firebaseAuth:FirebaseAuth
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityAuthenicationBinding.inflate(layoutInflater)
@@ -31,6 +32,7 @@ class LogIn : AppCompatActivity() {
             if (email.isNotEmpty() && pass.isNotEmpty()) {
                 firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
                     if (it.isSuccessful) {
+                        globalEmail = email
                         val intent = Intent(this, MenuPrincipalAdmin::class.java)
                         startActivity(intent)
                     } else {
