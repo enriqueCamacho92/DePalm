@@ -5,11 +5,13 @@
       <map>
         <entry key="..\:/Users/enriq/OneDrive/Documentos/GitHub/DePalm/app/src/main/res/layout/activity_agregar_cliente.xml" value="0.371875" />
         <entry key="..\:/Users/enriq/OneDrive/Documentos/GitHub/DePalm/app/src/main/res/layout/activity_agregar_producto.xml" value="0.371875" />
+        <entry key="..\:/Users/enriq/OneDrive/Documentos/GitHub/DePalm/app/src/main/res/layout/activity_authenication.xml" value="0.2" />
         <entry key="..\:/Users/enriq/OneDrive/Documentos/GitHub/DePalm/app/src/main/res/layout/activity_main.xml" value="0.371875" />
         <entry key="..\:/Users/enriq/OneDrive/Documentos/GitHub/DePalm/app/src/main/res/layout/activity_menu_gestion_cliente.xml" value="0.371875" />
         <entry key="..\:/Users/enriq/OneDrive/Documentos/GitHub/DePalm/app/src/main/res/layout/activity_menu_gestion_inventario.xml" value="0.371875" />
         <entry key="..\:/Users/enriq/OneDrive/Documentos/GitHub/DePalm/app/src/main/res/layout/activity_menu_principal_admin.xml" value="0.25" />
         <entry key="..\:/Users/enriq/OneDrive/Documentos/GitHub/DePalm/app/src/main/res/layout/activity_mostrar_producto.xml" value="0.25" />
+        <entry key="..\:/Users/enriq/OneDrive/Documentos/GitHub/DePalm/app/src/main/res/layout/activity_registration.xml" value="0.2225609756097561" />
       </map>
     </option>
   </component>

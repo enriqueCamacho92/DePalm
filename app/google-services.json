@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877684990696",
+    "project_id": "depalm-81e47",
+    "storage_bucket": "depalm-81e47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877684990696:android:b25c64e8fa052dab8a5f5d",
+        "android_client_info": {
+          "package_name": "com.example.depalm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877684990696-q85fr1j239ojqpbetb144mio1f5cfack.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAda2-ME57wz6eYZdQ5ehywko9l8r9L5Yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877684990696-q85fr1j239ojqpbetb144mio1f5cfack.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
