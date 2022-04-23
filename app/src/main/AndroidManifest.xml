@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DePalm">
         <activity
+            android:name=".Envases"
+            android:exported="true" />
+        <activity
             android:name=".VerProducto"
             android:exported="false" />
         <activity

@@ -37,8 +37,7 @@ class MenuPrincipalAdmin : AppCompatActivity() {
             startActivity(intent)
         }
         botonEnvases.setOnClickListener {
-            //MODIFICAR LA CLASE CUANDO ESTE LISTA LA ACTIVIDAD DE ENVASES
-            val intent = Intent(this, MenuGestionInventario::class.java)
+            val intent = Intent(this, Envases::class.java)
             startActivity(intent)
         }
         botonSalir.setOnClickListener {
