@@ -11,6 +11,5 @@ class MainActivity : AppCompatActivity() {
 
         val intent = Intent(this, LogIn::class.java)
         startActivity(intent)
-
     }
 }

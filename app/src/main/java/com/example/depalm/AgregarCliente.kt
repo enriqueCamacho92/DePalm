@@ -24,13 +24,17 @@ class AgregarCliente : AppCompatActivity() {
         botonAgregarCliente.setOnClickListener {
             val clienteNombre: TextView = findViewById(R.id.tvCliente)
             val clienteApodo: TextView = findViewById(R.id.tvApodo)
-            db.collection("clientes").document(clienteNombre.text.toString()).set(
+
+            db.collection(globalEmail+"-clientes").document(clienteNombre.text.toString()).set(
                 hashMapOf(
+                    "nombre" to clienteNombre.text.toString(),
                     "apodo" to clienteApodo.text.toString(),
-                    "fiado" to 0,
-                    "envases" to 0
+                    "fiado" to "00.00",
+                    "envases" to "0"
                 )
             )
+            clienteNombre.text = ""
+            clienteApodo.text = ""
         }
         botonVolver.setOnClickListener{
             val intent = Intent(this, MenuGestionCliente::class.java)

@@ -20,8 +20,7 @@ class MenuGestionCliente : AppCompatActivity() {
             startActivity(intent)
         }
         botonVerClientes.setOnClickListener {
-            //MODIFICAR LA CLASE CUANDO ESTE LISTA LA ACTIVIDAD DE VER CLIENTES - BASE DE DATOS
-            val intent = Intent(this, AgregarCliente::class.java)
+            val intent = Intent(this, VerCliente::class.java)
             startActivity(intent)
         }
         botonVolver.setOnClickListener {
