@@ -20,8 +20,7 @@ class MenuGestionInventario : AppCompatActivity() {
             startActivity(intent)
         }
         botonVerProductos.setOnClickListener {
-            //MODIFICAR LA CLASE CUANDO ESTE LISTA LA ACTIVIDAD DE VER PRODUCTOS - BASE DE DATOS
-            val intent = Intent(this, AgregarCliente::class.java)
+            val intent = Intent(this, VerProducto::class.java)
             startActivity(intent)
         }
         botonVolver.setOnClickListener {

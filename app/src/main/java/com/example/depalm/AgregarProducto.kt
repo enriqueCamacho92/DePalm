@@ -22,11 +22,14 @@ class AgregarProducto : AppCompatActivity() {
         botonAgregarProducto.setOnClickListener {
             val productoNombre: TextView = findViewById(R.id.tvProducto)
             val productoPrecio: TextView = findViewById(R.id.editTextNumberDecimal)
-            db.collection("productos").document(productoNombre.text.toString()).set(
+            db.collection(globalEmail+"-productos").document(productoNombre.text.toString()).set(
                 hashMapOf(
+                    "producto" to productoNombre.text.toString(),
                     "precio" to productoPrecio.text.toString()
                 )
             )
+            productoNombre.text = ""
+            productoPrecio.text = ""
         }
         botonVolver.setOnClickListener{
             val intent = Intent(this, MenuGestionInventario::class.java)
