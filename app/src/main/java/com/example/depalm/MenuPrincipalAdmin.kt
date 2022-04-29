@@ -13,7 +13,6 @@ class MenuPrincipalAdmin : AppCompatActivity() {
         //Variables estáticas correspondientes a los botones del menú principal
         val botonGestionClientes: Button = findViewById(R.id.button_gestion_clientes)
         val botonGestionInventario: Button = findViewById(R.id.button_gestion_inventario)
-        val botonVenta: Button = findViewById(R.id.button_venta)
         val botonFiar: Button = findViewById(R.id.button_fiar)
         val botonEnvases: Button = findViewById(R.id.button_envases)
         val botonSalir: Button = findViewById(R.id.button_salir)
@@ -26,14 +25,9 @@ class MenuPrincipalAdmin : AppCompatActivity() {
             val intent = Intent(this, MenuGestionInventario::class.java)
             startActivity(intent)
         }
-        botonVenta.setOnClickListener {
-            //MODIFICAR LA CLASE CUANDO ESTE LISTA LA ACTIVIDAD DE VENTAS
-            val intent = Intent(this, MenuGestionInventario::class.java)
-            startActivity(intent)
-        }
         botonFiar.setOnClickListener {
             //MODIFICAR LA CLASE CUANDO ESTE LISTA LA ACTIVIDAD DE FIAR
-            val intent = Intent(this, MenuGestionInventario::class.java)
+            val intent = Intent(this, Fiar::class.java)
             startActivity(intent)
         }
         botonEnvases.setOnClickListener {

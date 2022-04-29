@@ -11,16 +11,14 @@
         android:id="@+id/button_envases"
         android:layout_width="182dp"
         android:layout_height="83dp"
-        android:layout_marginTop="72dp"
         android:text="@string/envases"
         app:icon="@drawable/bottles_icon"
         app:iconSize="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button_fiar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_venta"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84" />
 
     <Button
         android:id="@+id/button_salir"
@@ -31,41 +29,25 @@
         app:icon="@android:drawable/ic_menu_close_clear_cancel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975" />
+        app:layout_constraintVertical_bias="0.88" />
 
     <Button
         android:id="@+id/button_fiar"
         android:layout_width="182dp"
         android:layout_height="83dp"
-        android:layout_marginStart="12dp"
         android:layout_marginTop="72dp"
         android:text="@string/fiar"
         app:icon="@drawable/fiar_icon"
         app:iconSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
-        app:layout_constraintStart_toEndOf="@+id/button_venta"
-        app:layout_constraintTop_toBottomOf="@+id/button_gestion_inventario"
-        app:layout_constraintVertical_bias="0.003" />
-
-    <Button
-        android:id="@+id/button_venta"
-        android:layout_width="182dp"
-        android:layout_height="83dp"
-        android:layout_marginTop="72dp"
-        android:text="@string/venta"
-        app:icon="@drawable/venta_icon"
-        app:iconSize="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_gestion_clientes"
-        app:layout_constraintVertical_bias="0.003" />
+        app:layout_constraintTop_toBottomOf="@+id/button_gestion_inventario"
+        app:layout_constraintVertical_bias="0.393" />
 
     <Button
         android:id="@+id/button_gestion_inventario"

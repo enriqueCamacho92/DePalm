@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DePalm">
         <activity
+            android:name=".EditarFiar"
+            android:exported="false" />
+        <activity
+            android:name=".Fiar"
+            android:exported="false" />
+        <activity
             android:name=".EditarEnvases"
             android:exported="false" />
         <activity

@@ -2,11 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@drawable/dreamy_green_background"
     android:orientation="vertical"
-    tools:context=".EditarEnvases">
+    tools:context=".EditarFiar">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tvNombreEditarEnvases"
+            android:id="@+id/tvNombreEditarFiar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
@@ -43,7 +43,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tvApodoEditarEnvases"
+            android:id="@+id/tvApodoEditarFiar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
@@ -63,7 +63,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tvFiadoEditarEnvases"
+            android:id="@+id/tvFiadoEditarFiar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
@@ -83,33 +83,33 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tvEnvasesEditarEnvases"
+            android:id="@+id/tvEnvasesEditarFiar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
     </LinearLayout>
 
     <EditText
-        android:id="@+id/etEnvasesEditarEnvases"
+        android:id="@+id/etFiarEditarFiar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#709C27B0"
         android:ems="10"
-        android:hint="Cantidad de Envases"
+        android:hint="Cantidad a Fiar"
         android:importantForAutofill="no"
-        android:inputType="number"
+        android:inputType="number|numberDecimal"
         android:minHeight="48dp"
-        android:textColorHint="#424242" />
+        android:textColorHint="#546E7A" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnCancelarEditarEnvases"
+            android:id="@+id/btnCancelarEditarFiar"
             style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#E91E63"
@@ -117,23 +117,24 @@
             android:textColor="#000000" />
 
         <Button
-            android:id="@+id/btnPrestarEditarEnvases"
+            android:id="@+id/btnFiarEditarFiar"
             style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#2196F3"
-            android:text="Prestar"
+            android:text="Fiar"
             android:textColor="#212121" />
 
         <Button
-            android:id="@+id/btnDevolverEditarEnvases"
+            android:id="@+id/btnDevolverEditarFiar"
             style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#4CAF50"
             android:text="Devolver"
             android:textColor="#263238" />
     </LinearLayout>
+
 </LinearLayout>
