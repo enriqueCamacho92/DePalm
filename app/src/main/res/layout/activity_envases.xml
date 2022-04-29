@@ -7,40 +7,6 @@
     android:background="@drawable/dreamy_green_background"
     tools:context=".Envases">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#80673AB7"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="0.01999998">
-
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Cantidad de Envases"
-            android:textAlignment="center"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/editTextNumber"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:background="@color/white"
-            android:ems="10"
-            android:hint="Ingresa numero"
-            android:importantForAutofill="no"
-            android:inputType="number"
-            android:textAlignment="center"
-            android:textColorHint="#546E7A"
-            android:textSize="20sp" />
-    </LinearLayout>
-
     <ImageButton
         android:id="@+id/button_volver7"
         android:layout_width="85dp"
@@ -52,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recyclerView2"
+        app:layout_constraintTop_toBottomOf="@+id/clientList2"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@android:drawable/ic_menu_revert"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -75,9 +41,9 @@
         app:layout_constraintVertical_bias="0.022" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView2"
-        android:layout_width="390dp"
-        android:layout_height="460dp"
+        android:id="@+id/clientList2"
+        android:layout_width="376dp"
+        android:layout_height="522dp"
         android:layout_marginBottom="88dp"
         android:background="#80673AB7"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -85,6 +51,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
         app:layout_constraintVertical_bias="0.948"
-        tools:listitem="@layout/envases_item"/>
+        tools:listitem="@layout/cliente_item2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

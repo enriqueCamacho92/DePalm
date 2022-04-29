@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DePalm">
         <activity
+            android:name=".EditarEnvases"
+            android:exported="false" />
+        <activity
             android:name=".Envases"
             android:exported="true" />
         <activity
